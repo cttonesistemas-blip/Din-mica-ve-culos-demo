@@ -33,25 +33,39 @@ footer{background:var(--paper);padding:60px 6vw 95px}.footer-top{display:grid;gr
 @media(max-width:1000px){.nav{display:none}.menu{display:block}.header-cta{margin-left:auto}.hero-inner,.section-head,.finder-shell,.why-grid,.neuro-grid,.inside-grid,.history-grid,.location-grid,.contact-grid{grid-template-columns:1fr}.hero{min-height:auto}.hero-inner{padding-top:145px}.hero-side{grid-template-columns:1fr 1fr}.pro-grid{grid-template-columns:repeat(3,1fr)}.social-card{flex-basis:57%}.timeline,.visit-steps{grid-template-columns:repeat(2,1fr)}.footer-top{grid-template-columns:1fr 1fr}.footer-top>div:last-child{grid-column:1/-1}.modal-card{grid-template-columns:1fr;overflow:auto}.modal-media,.modal-media iframe{min-height:560px}.now-inner{grid-template-columns:1fr}.faq{grid-template-columns:1fr}.directory-tools{grid-template-columns:1fr}.filters{justify-content:flex-start}}
 @media(max-width:700px){html{scroll-padding-top:72px}.demo{font-size:7px}.wrap{width:min(100% - 30px,1220px)}header{height:70px;padding:0 18px}.brand-logo{width:132px}.header-cta{display:none}.mobile-bottom{display:grid;position:fixed;z-index:105;bottom:0;left:0;right:0;grid-template-columns:repeat(4,1fr);background:rgba(245,241,232,.96);border-top:1px solid var(--line);backdrop-filter:blur(12px);padding-bottom:env(safe-area-inset-bottom)}.mobile-bottom a{padding:14px 4px;min-height:50px;font-size:9px;text-align:center}.mobile-bottom a:last-child{background:var(--ink);color:#fff}.hero-inner{padding:112px 0 70px;gap:34px}.hero-brand{align-items:flex-start;flex-direction:column;gap:8px}.hero-brand img{width:143px}.hero h1{font-size:clamp(50px,15vw,69px)}.hero .lead{font-size:15px}.hero-side{grid-template-columns:1fr}.hero-note:not(.hot){display:none}.hero-proof{gap:16px}.section{padding:68px 0}.section-head{gap:17px}.section-head h2,.section h2{font-size:37px}.finder-left,.finder-right{padding:25px}.finder-options{grid-template-columns:1fr}.why-grid>h2,.neuro h2,.history h2,.location h2,.contact h2{font-size:40px}.care-flow{grid-template-columns:1fr}.care-flow div{border-right:0}.neuro-photo{min-height:470px}.tour-card{min-height:480px}.inside-note{min-height:230px}.pro-grid{grid-template-columns:1fr 1fr}.pro-copy{padding:15px}.social-card{flex-basis:89%;min-height:430px;padding:22px}.social-number{font-size:50px}.social-copy strong{font-size:27px}.social-source-note{grid-template-columns:1fr}.journey{grid-template-columns:38px 1fr;gap:12px}.journey p{grid-column:2/3}.year{font-size:84px}.timeline,.visit-steps,.proof-signals{grid-template-columns:1fr}.location-grid,.contact-grid{gap:38px}.map,.map iframe{min-height:320px}.footer-top{grid-template-columns:1fr}.footer-top>div:last-child{grid-column:auto}.footer-bottom{display:block}.footer-bottom span{display:block;margin-top:8px}.modal{padding:8px}.modal-media,.modal-media iframe{min-height:520px}.modal-copy{padding:26px 22px}.modal-copy h3{font-size:30px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Professional Full V3 — GitHub-powered discovery + official identity */
+.scroll-progress{position:fixed;z-index:145;left:0;top:0;height:2px;width:0;background:var(--lime);box-shadow:0 0 16px rgba(168,205,72,.65)}
+.brand-logo{width:172px}.brand-logo .brand-shell{position:relative;display:grid;place-items:center;min-height:52px;padding:7px 12px;background:rgba(255,255,255,.96);border:1px solid rgba(255,255,255,.38);box-shadow:0 12px 34px rgba(4,24,26,.14)}.brand-logo img{width:148px;height:auto;max-height:42px;object-fit:contain;background:transparent;padding:0}.brand-fallback{display:none;font-family:Lora,Georgia,serif;font-size:27px;letter-spacing:-.05em;color:var(--teal2)}
+.quick-search{display:inline-flex;align-items:center;gap:7px;border:0;border-bottom:1px solid currentColor;background:transparent;color:inherit;padding:8px 0;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}.quick-search kbd{font:inherit;font-size:8px;border:1px solid currentColor;padding:1px 5px;opacity:.55}.quick-search:hover{color:var(--lime)}header.scrolled .quick-search:hover{color:var(--teal2)}
+.site-search{position:fixed;inset:0;z-index:160;display:none;place-items:start center;padding:8vh 20px 20px}.site-search.open{display:grid}.site-search-backdrop{position:absolute;inset:0;background:rgba(5,25,27,.8);backdrop-filter:blur(14px)}.site-search-panel{position:relative;z-index:2;width:min(830px,100%);max-height:84vh;overflow:auto;background:var(--paper2);border:1px solid var(--line);box-shadow:0 36px 110px rgba(5,25,27,.42)}.site-search-top{display:flex;justify-content:space-between;align-items:center;padding:21px 24px;border-bottom:1px solid var(--line)}.site-search-top button{border:0;background:transparent;font-size:20px}.site-search-input{display:flex;align-items:center;gap:14px;padding:23px 24px;border-bottom:1px solid var(--line)}.site-search-input span{font-size:22px}.site-search-input input{width:100%;border:0;outline:0;background:transparent;font-family:Lora,Georgia,serif;font-size:clamp(23px,4vw,35px);color:var(--ink)}.site-search-results{padding:5px 24px 12px}.search-result{width:100%;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;padding:18px 0;border:0;border-bottom:1px solid var(--line);background:transparent;text-align:left;color:var(--ink)}.search-result small{display:block;font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal2)}.search-result strong{display:block;font-family:Lora,Georgia,serif;font-size:23px;font-weight:400;margin:4px 0}.search-result em{display:block;font-style:normal;font-size:10px;color:var(--quiet)}.search-result:hover strong{color:var(--teal2)}.site-search-help{display:flex;justify-content:space-between;gap:20px;padding:13px 24px;background:var(--sand);font-size:8px;letter-spacing:.06em;text-transform:uppercase;color:var(--quiet)}.search-empty{padding:30px 0;color:var(--quiet);font-size:12px}
+.footer-official-logo{width:190px;max-height:72px;object-fit:contain;background:#fff;padding:8px 12px;margin-bottom:15px}
+.js-reveal{opacity:0;transform:translateY(20px);transition:opacity .72s cubic-bezier(.2,.7,.2,1),transform .72s cubic-bezier(.2,.7,.2,1)}.js-reveal.visible{opacity:1;transform:none}
+.pro-card{transition:transform .24s ease,box-shadow .24s ease}.pro-card:hover{transform:translateY(-3px);box-shadow:0 22px 55px rgba(16,47,49,.10)}.pro-photo img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}.pro-card:hover .pro-photo img{transform:scale(1.025)}
+@media(max-width:1120px){.quick-search span,.quick-search kbd{display:none}.brand-logo{width:152px}}
+@media(max-width:700px){.brand-logo{width:130px}.brand-logo .brand-shell{min-height:43px;padding:5px 8px}.brand-logo img{width:112px;max-height:34px}.quick-search{display:none}.site-search{padding:0}.site-search-panel{width:100%;height:100%;max-height:none;border:0}.site-search-help{position:sticky;bottom:0}.site-search-input input{font-size:24px}.mobile-bottom button{border:0;background:transparent;color:inherit;font:inherit;font-size:9px;padding:14px 4px;min-height:50px}.footer-official-logo{width:160px}}
+@media(prefers-reduced-motion:reduce){.js-reveal{opacity:1!important;transform:none!important;transition:none!important}}
+
 </style>
 </head>
 <body>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 <div class="demo">Demonstração independente · não é o site oficial</div>
 <header id="header">
-  <a class="brand-logo" href="#inicio"><img src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/Fisiolife.zip-1-7-1.png" alt="FisioLife Centro Terapêutico Multiprofissional"></a>
+  <a class="brand-logo" href="#inicio" aria-label="FisioLife — início"><span class="brand-shell"><img src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/Fisiolife.zip-1-7-1.png" alt="FisioLife Centro Terapêutico Multiprofissional" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span class="brand-fallback">FisioLife</span></span></a>
   <nav class="nav"><a href="#cuidado">Encontre seu cuidado</a><a href="#neuro">Neurodesenvolvimento</a><a href="#equipe">Profissionais</a><a href="#videos">Vídeos</a><a href="#historia">A FisioLife</a></nav>
-  <a class="button lime header-cta" href="#agendamento">Agendar ↗</a>
+  <button class="quick-search" id="quickSearchBtn" aria-label="Buscar no site">⌕ <span>Buscar</span><kbd>/</kbd></button><a class="button lime header-cta" href="#agendamento">Agendar ↗</a>
   <button class="menu" id="menuBtn" aria-label="Abrir menu">☰</button>
 </header>
 <nav class="mobile-menu" id="mobileMenu"><a href="#cuidado">Encontre seu cuidado</a><a href="#neuro">Neurodesenvolvimento</a><a href="#equipe">Profissionais</a><a href="#videos">Vídeos</a><a href="#historia">A FisioLife</a><a href="#agendamento">Agendar</a></nav>
-<nav class="mobile-bottom"><a href="#inicio">Início</a><a href="#cuidado">Cuidado</a><a href="#equipe">Equipe</a><a href="#agendamento">Agendar ↗</a></nav>
+<nav class="mobile-bottom"><a href="#inicio">Início</a><button id="mobileSearchBtn">Buscar</button><a href="#equipe">Equipe</a><a href="#agendamento">Agendar ↗</a></nav>
 
 <main>
 <section class="hero" id="inicio">
   <div class="hero-media"><img src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/4-2-2-804x1024.png" alt="Fachada real da FisioLife em Parnaíba"></div><div class="hero-shade"></div>
   <div class="hero-inner">
     <div>
-      <div class="hero-brand"><img src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/Fisiolife.zip-1-7-1.png" alt=""><span class="eyebrow">PARNAÍBA · DESDE 2016</span></div>
+      <div class="hero-brand"><img src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/Fisiolife.zip-1-7-1.png" alt="Logo oficial FisioLife"><span class="eyebrow">PARNAÍBA · DESDE 2016</span></div>
       <h1>MAIS QUE SAÚDE.<br><em>CUIDADO INTEGRAL.</em></h1>
       <p class="lead">Uma clínica multiprofissional para diferentes fases da vida — com equipe real, estrutura real e um primeiro contato mais claro.</p>
       <div class="hero-actions"><a class="button lime" href="#cuidado">Encontre seu cuidado ↗</a><a class="button light" href="#equipe">Conheça a equipe ↗</a></div>
@@ -90,8 +104,20 @@ footer{background:var(--paper);padding:60px 6vw 95px}.footer-top{display:grid;gr
 
 <footer><div class="footer-top"><div><img class="footer-logo" src="https://clinicafisiolifephb.com/wp-content/uploads/2026/01/Fisiolife.zip-1-7-1.png" alt="FisioLife"><p>Mais que saúde, um cuidado integral.</p><small>Centro Terapêutico Multiprofissional<br>Parnaíba · Piauí</small></div><div class="footer-links"><a href="#cuidado">Encontre seu cuidado</a><a href="#equipe">Nossa equipe</a><a href="#videos">FisioLife em movimento</a><a href="#localizacao">Como chegar</a><a href="https://www.instagram.com/fisiolife.phb/" target="_blank" rel="noreferrer">@fisiolife.phb ↗</a></div><div><p>Rua Pedro II, 1394 · Centro · Parnaíba/PI</p><a href="mailto:fisiolifephb@outlook.com">fisiolifephb@outlook.com</a><p>(86) 8844-9400</p><small>Conteúdo público deve ser validado pela clínica antes de publicação oficial.</small></div></div><div class="footer-bottom"><small>© 2026 FisioLife · demonstração independente.</small><span>Privacidade · Termos · Acessibilidade</span></div></footer>
 
+
+<div class="site-search" id="siteSearch" role="dialog" aria-modal="true" aria-labelledby="siteSearchTitle">
+ <div class="site-search-backdrop" id="siteSearchBackdrop"></div>
+ <section class="site-search-panel">
+  <div class="site-search-top"><span class="eyebrow" id="siteSearchTitle">BUSCA INTELIGENTE</span><button id="siteSearchClose" aria-label="Fechar busca">✕</button></div>
+  <label class="site-search-input"><span>⌕</span><input id="siteSearchInput" autocomplete="off" placeholder="Profissional, Pilates, Fono, neurodesenvolvimento…"></label>
+  <div class="site-search-results" id="siteSearchResults" aria-live="polite"></div>
+  <div class="site-search-help"><span>Busca tolera erros de digitação.</span><span>ESC fecha · / abre</span></div>
+ </section>
+</div>
+
 <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button class="modal-close" id="modalClose" aria-label="Fechar">✕</button><div class="modal-media" id="modalMedia"></div><div class="modal-copy"><span class="eyebrow" id="modalCategory"></span><h3 id="modalTitle"></h3><p id="modalDescription"></p><small id="modalDate"></small><a class="button dark" id="modalLink" target="_blank" rel="noreferrer">Abrir no Instagram ↗</a></div></div></div>
 
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
 <script>
 const videos=[
  {title:'Por dentro da FisioLife',category:'Estrutura',date:'22 set 2026',description:'Tour oficial publicado pela clínica mostrando ambientes, acolhimento e estrutura em Parnaíba.',url:'https://www.instagram.com/reel/DdmPFnhxtpK/',embed:'https://www.instagram.com/reel/DdmPFnhxtpK/embed/'},
@@ -132,7 +158,9 @@ window.selectArea=selectArea;
 const proGrid=document.getElementById('proGrid'),proSearch=document.getElementById('proSearch'),proFilters=document.getElementById('proFilters');let proFilter='Todos';const filterOptions=['Todos','Fisioterapia','Terapia Ocupacional','Fonoaudiologia','Psicologia','Nutrição'];
 filterOptions.forEach(f=>{const b=document.createElement('button');b.textContent=f;b.className=f==='Todos'?'on':'';b.onclick=()=>{proFilter=f;proFilters.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderPros()};proFilters.appendChild(b)});
 function norm(v){return v.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
-function renderPros(){const q=norm(proSearch.value||'');proGrid.innerHTML='';professionals.filter(p=>(proFilter==='Todos'||p[1]===proFilter)&&norm(p.join(' ')).includes(q)).forEach(p=>{const a=document.createElement('article');a.className='pro-card';a.innerHTML=`<div class="pro-photo"><img src="${p[4]}" alt="Material público da FisioLife sobre ${p[0]}" loading="lazy"></div><div class="pro-copy"><small>${p[1]}</small><h3>${p[0]}</h3>${p[2]?`<small>${p[2]}</small>`:''}<p>${p[3]}</p><a href="#agendamento">Consultar atendimento ↗</a></div>`;a.querySelector('a').onclick=()=>{selectArea(p[1]==='Fisioterapia'?'Fisioterapia / reabilitação':p[1]);};proGrid.appendChild(a)});}
+function currentProfessionals(){return professionals.filter(p=>proFilter==='Todos'||p[1]===proFilter)}
+function searchProfessionals(q){const base=currentProfessionals();if(!q)return base;if(window.Fuse){const fuse=new Fuse(base,{threshold:.3,ignoreLocation:true,minMatchCharLength:2,keys:['0','1','2','3']});return fuse.search(q).map(x=>x.item);}const nq=norm(q);return base.filter(p=>norm(p.join(' ')).includes(nq));}
+function renderPros(){const q=(proSearch.value||'').trim();proGrid.innerHTML='';const list=searchProfessionals(q);list.forEach(p=>{const a=document.createElement('article');a.className='pro-card';a.innerHTML=`<div class="pro-photo"><img src="${p[4]}" alt="Material público da FisioLife sobre ${p[0]}" loading="lazy"></div><div class="pro-copy"><small>${p[1]}</small><h3>${p[0]}</h3>${p[2]?`<small>${p[2]}</small>`:''}<p>${p[3]}</p><a href="#agendamento">Consultar atendimento ↗</a></div>`;a.querySelector('a').onclick=()=>{selectArea(p[1]==='Fisioterapia'?'Fisioterapia / reabilitação':p[1]);};proGrid.appendChild(a)});if(!list.length)proGrid.innerHTML='<div class="search-empty"><strong>Nenhum perfil encontrado.</strong><br>Experimente outra área ou fale com a recepção.</div>';}
 proSearch.oninput=renderPros;renderPros();
 
 // social carousel + modal
@@ -140,8 +168,42 @@ const track=document.getElementById('socialTrack');videos.forEach((v,i)=>{const 
 let slide=0;function updateSlide(){const card=track.querySelector('.social-card');if(!card)return;const gap=14;const w=card.getBoundingClientRect().width+gap;const max=Math.max(0,videos.length-Math.floor(track.parentElement.clientWidth/w));slide=Math.max(0,Math.min(slide,max));track.style.transform=`translateX(${-slide*w}px)`;}document.getElementById('socialPrev').onclick=()=>{slide--;updateSlide()};document.getElementById('socialNext').onclick=()=>{slide++;updateSlide()};addEventListener('resize',updateSlide);
 const modal=document.getElementById('videoModal'),modalMedia=document.getElementById('modalMedia');function openVideo(i){const v=videos[i];document.getElementById('modalCategory').textContent=v.category;document.getElementById('modalTitle').textContent=v.title;document.getElementById('modalDescription').textContent=v.description;document.getElementById('modalDate').textContent=v.date;document.getElementById('modalLink').href=v.url;modalMedia.innerHTML=`<iframe src="${v.embed}" title="${v.title.replace(/"/g,'&quot;')}" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`;modal.classList.add('open');document.body.style.overflow='hidden';}document.querySelector('.tour-card').onclick=()=>openVideo(0);function closeVideo(){modal.classList.remove('open');modalMedia.innerHTML='';document.body.style.overflow='';}document.getElementById('modalClose').onclick=closeVideo;modal.onclick=e=>{if(e.target===modal)closeVideo()};addEventListener('keydown',e=>{if(e.key==='Escape')closeVideo()});
 
+
+// global intelligent search (Fuse.js from GitHub project krisk/Fuse)
+const siteSearch=document.getElementById('siteSearch'),siteSearchInput=document.getElementById('siteSearchInput'),siteSearchResults=document.getElementById('siteSearchResults');
+const staticSearch=[
+ {kind:'Navegação',title:'Encontre seu cuidado',subtitle:'Comece pela necessidade, não pelo nome da especialidade.',keywords:'criança adolescente adulto idoso orientação',target:'#cuidado'},
+ {kind:'Navegação',title:'Neurodesenvolvimento',subtitle:'Cuidado multiprofissional e equipe publicada pela clínica.',keywords:'autismo aba terapia ocupacional fono psicologia desenvolvimento',target:'#neuro'},
+ {kind:'Navegação',title:'Por dentro da FisioLife',subtitle:'Tour, fachada e estrutura real publicada pela clínica.',keywords:'estrutura clínica ambiente tour fachada',target:'#estrutura'},
+ {kind:'Navegação',title:'Primeira vez na FisioLife',subtitle:'Como escolher, confirmar e chegar ao atendimento.',keywords:'primeira consulta convênio horário recepção',target:'#agendamento'},
+ ...professionals.map((p,i)=>({kind:'Profissional',title:p[0],subtitle:p[1]+' · '+p[3],keywords:p.join(' '),target:'#equipe',professional:p[0]})),
+ ...videos.map((v,i)=>({kind:'Vídeo oficial',title:v.title,subtitle:v.category+' · '+v.description,keywords:v.category+' '+v.description,target:'#videos',video:i}))
+];
+const siteFuse=window.Fuse?new Fuse(staticSearch,{threshold:.32,ignoreLocation:true,minMatchCharLength:2,keys:[{name:'title',weight:2},{name:'subtitle',weight:1.2},{name:'keywords',weight:1}]}):null;
+function openSiteSearch(){siteSearch.classList.add('open');document.body.style.overflow='hidden';setTimeout(()=>siteSearchInput.focus(),20);renderSiteSearch();}
+function closeSiteSearch(){siteSearch.classList.remove('open');document.body.style.overflow='';siteSearchInput.value='';}
+function getSiteResults(){const q=siteSearchInput.value.trim();if(!q)return staticSearch.slice(0,7);if(siteFuse)return siteFuse.search(q).slice(0,8).map(x=>x.item);const nq=norm(q);return staticSearch.filter(x=>norm(x.title+' '+x.subtitle+' '+x.keywords).includes(nq)).slice(0,8);}
+function renderSiteSearch(){const result=getSiteResults();siteSearchResults.innerHTML='';if(!result.length){siteSearchResults.innerHTML='<div class="search-empty">Nada encontrado. Tente nome do profissional, área ou tema de cuidado.</div>';return;}result.forEach(item=>{const b=document.createElement('button');b.className='search-result';b.innerHTML=`<span><small>${item.kind}</small><strong>${item.title}</strong><em>${item.subtitle}</em></span><span>↗</span>`;b.onclick=()=>{closeSiteSearch();if(item.professional){proSearch.value=item.professional;proFilter='Todos';proFilters.querySelectorAll('button').forEach((x,i)=>x.classList.toggle('on',i===0));renderPros();}if(typeof item.video==='number'){setTimeout(()=>openVideo(item.video),350);}document.querySelector(item.target)?.scrollIntoView({behavior:'smooth',block:'start'});};siteSearchResults.appendChild(b)});}
+document.getElementById('quickSearchBtn').onclick=openSiteSearch;document.getElementById('mobileSearchBtn').onclick=openSiteSearch;document.getElementById('siteSearchClose').onclick=closeSiteSearch;document.getElementById('siteSearchBackdrop').onclick=closeSiteSearch;siteSearchInput.oninput=renderSiteSearch;
+addEventListener('keydown',e=>{const tag=document.activeElement?.tagName;if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(tag)){e.preventDefault();openSiteSearch();}if(e.key==='Escape'&&siteSearch.classList.contains('open'))closeSiteSearch()});
+
+// scroll progress + subtle editorial reveals
+const progress=document.getElementById('scrollProgress');function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?(scrollY/max*100):0)+'%'}addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelectorAll('.section,.now').forEach(el=>el.classList.add('js-reveal'));const revealObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObserver.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -50px'});document.querySelectorAll('.js-reveal').forEach(el=>revealObserver.observe(el));}
+
 // whatsapp
 const whatsBtn=document.getElementById('whatsBtn');whatsBtn.onclick=()=>{const name=document.getElementById('name').value||'não informado';const area=document.getElementById('area').value;const period=document.getElementById('period').value;const msg=`Olá! Vim pela demonstração do novo site da FisioLife e gostaria de consultar um atendimento.\n\nNome: ${name}\nÁrea de interesse: ${area}\nPeríodo preferido: ${period}\n\nPodem me orientar sobre disponibilidade e próximos passos?`;open('https://wa.me/558688449400?text='+encodeURIComponent(msg),'_blank');};
 </script>
+
+<script type="module">
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  try{
+    const {default:Lenis}=await import('https://cdn.jsdelivr.net/npm/lenis@1.3.26/+esm');
+    const lenis=new Lenis({duration:1.05,smoothWheel:true,touchMultiplier:1.15});
+    function raf(time){lenis.raf(time);requestAnimationFrame(raf)}requestAnimationFrame(raf);
+  }catch(e){/* native scrolling remains available */}
+}
+</script>
+
 </body>
 </html>
