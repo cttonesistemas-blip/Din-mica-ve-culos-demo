@@ -1,0 +1,17 @@
+{
+  "name":"FisioLife Centro Terapêutico Multiprofissional",
+  "short_name":"FisioLife",
+  "description":"Acesso rápido a profissionais, conteúdos e contato com a recepção da FisioLife.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f5f1e8",
+  "theme_color":"#102f31",
+  "lang":"pt-BR",
+  "icons":[{"src":"https://clinicafisiolifephb.com/wp-content/uploads/2026/01/cropped-Fisiolife.zip-8-1-scaled-1-270x270.png","sizes":"270x270","type":"image/png","purpose":"any"}],
+  "shortcuts":[
+    {"name":"Encontre seu cuidado","url":"./#cuidado"},
+    {"name":"Profissionais","url":"./#equipe"},
+    {"name":"Agendar","url":"./#agendamento"}
+  ]
+}
